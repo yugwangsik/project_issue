@@ -21,3 +21,13 @@
 # putty 접속 아이디 비번
   - sonooffice
   - tinyos
+
+# grafana 설치
+  - sudo apt-get install adduser libfontconfig1
+  - wget https://dl.grafana.com/oss/release/grafana_7.5.2_amd64.deb
+  - sudo dpkg -i grafana_7.5.2_amd64.deb
+  - sudo service grafana-server start //서비스 시작
+  - sudo service grafana-server status //서비스 상태 확인
+
+# putty 나가기
+  - ctrl + d
