@@ -13,3 +13,12 @@
   
 # E:의존성에 맞지 않습니다. 에러 해결
   - sudo apt --fix-broken install
+
+# 22번포트 확인하기
+  - sudo apt install net-tools
+  - netstat -tnlp
+
+
+# putty 접속 아이디 비번
+  - sonooffice
+  - tinyos
