@@ -18,7 +18,6 @@
   - sudo apt install net-tools
   - netstat -tnlp
 
-
 # putty 접속 아이디 비번
   - sonooffice
   - tinyos
