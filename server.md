@@ -28,6 +28,7 @@
   - sudo dpkg -i grafana_7.5.2_amd64.deb
   - sudo service grafana-server start //서비스 시작
   - sudo service grafana-server status //서비스 상태 확인
+  - sudo systemctl enable grafana-server.service //서버 재부팅시 자동으로 실행
 
 # putty 나가기
   - ctrl + d
