@@ -29,6 +29,8 @@
   - sudo service grafana-server start //서비스 시작
   - sudo service grafana-server status //서비스 상태 확인
   - sudo systemctl enable grafana-server.service //서버 재부팅시 자동으로 실행
-
+  - sudo ufw allow 3000 // 3000번 포트 활성화
+  - sudo ufw reload
+  
 # putty 나가기
   - ctrl + d
