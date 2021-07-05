@@ -4,6 +4,7 @@
 # 방화벽해제
 - sudo ufw enable
 - sudo ufw allow 22
+- sudo ufw delete allow 22 // 22번 규칙 삭제
 - sudo ufw reload
 
 # ubuntu waiting for cache lock could not get lock /var/lib/dpkg/lock-frontend 에러 해결
