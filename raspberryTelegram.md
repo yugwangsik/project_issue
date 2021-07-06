@@ -43,3 +43,6 @@ import telegram
 TOKEN = 'XXXXXXXXX:XXXXXXXXXXXXXX-XXX_XXXXXXXXXXXXXXXXXXXXXX'    // 텔레그램으로부터 받은 Bot API 토큰
 botP.send_photo(chat_id, photo=open('test.jpg', 'rb')) // 사용자 ID확인필요 & 사진 경로 확인
 ```
+
+# telegram 사용자 ID 확인
+  - https://api.telegram.org/bot(텔레그램으로부터 받은 API)/getUpdates
