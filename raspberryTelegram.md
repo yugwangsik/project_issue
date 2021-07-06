@@ -16,7 +16,7 @@ def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
 
     if content_type == 'text':
-        if msg['text'].upper() == '':
+        if msg['text'].upper() == 'P':
             os.system(photo)
             botP.send_photo(chat_id, photo=open('test.jpg', 'rb'))
         elif msg['text'] == '/start':
