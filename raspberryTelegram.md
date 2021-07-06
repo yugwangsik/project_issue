@@ -1,4 +1,4 @@
-# telepot 다운
+# telepot, telegram 다운
   - pip3 install telepot
   - pip3 install python-telegram-bot --upgrade
 
@@ -25,7 +25,7 @@ def handle(msg):
             bot.sendMessage(chat_id, 'Unsupported features')
 
 
-TOKEN = 'XXXXXXXXX:XXXXXXXXXXXXXX-XXX_XXXXXXXXXXXXXXXXXXXXXX'    # 텔레그램으로부터 받은 Bot API 토큰
+TOKEN = 'XXXXXXXXX:XXXXXXXXXXXXXX-XXX_XXXXXXXXXXXXXXXXXXXXXX'    // 텔레그램으로부터 받은 Bot API 토큰
 
 bot = telepot.Bot(TOKEN)
 botP = telegram.Bot(TOKEN)
@@ -34,4 +34,12 @@ print ('Listening ...')
 
 while True:
     time.sleep(1000)
+```
+
+# telegram에서 사용자에게 사진 전송
+```
+import telegram
+
+TOKEN = 'XXXXXXXXX:XXXXXXXXXXXXXX-XXX_XXXXXXXXXXXXXXXXXXXXXX'    // 텔레그램으로부터 받은 Bot API 토큰
+botP.send_photo(chat_id, photo=open('test.jpg', 'rb')) // 사용자 ID확인필요 & 사진 경로 확인
 ```
