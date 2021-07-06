@@ -22,7 +22,7 @@ def handle(msg):
         elif msg['text'] == '/start':
             pass
         else:
-            bot.sendMessage(chat_id, '지원하지 않는 기능입니다')
+            bot.sendMessage(chat_id, 'Unsupported features')
 
 
 TOKEN = 'XXXXXXXXX:XXXXXXXXXXXXXX-XXX_XXXXXXXXXXXXXXXXXXXXXX'    # 텔레그램으로부터 받은 Bot API 토큰
