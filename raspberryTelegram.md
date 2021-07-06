@@ -3,6 +3,7 @@
   - pip3 install python-telegram-bot --upgrade
 
 # 텔레그램에 'P'를 입력하면 사진찍어서 보내주기
+```
 import time
 import telepot
 import telegram
@@ -33,3 +34,4 @@ print ('Listening ...')
 
 while True:
     time.sleep(1000)
+```
