@@ -1,5 +1,6 @@
 # telepot 다운
   - pip3 install telepot
+  - pip3 install python-telegram-bot --upgrade
 
 # 텔레그램에서 사진
 import time
