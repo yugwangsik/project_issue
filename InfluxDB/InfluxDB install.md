@@ -8,3 +8,6 @@
 
 ## 프로그램 실행
   - sudo service influxdb start
+
+## influxdb import with python
+  - sudo pip install influxdb
