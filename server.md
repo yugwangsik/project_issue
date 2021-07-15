@@ -23,7 +23,7 @@
   - sonooffice
   - tinyos
 
-# grafana 설치
+# grafana 설치(ubuntu)
   - sudo apt-get install adduser libfontconfig1
   - wget https://dl.grafana.com/oss/release/grafana_7.5.2_amd64.deb
   - sudo dpkg -i grafana_7.5.2_amd64.deb
