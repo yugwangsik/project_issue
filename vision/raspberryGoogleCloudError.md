@@ -1,14 +1,10 @@
 google cloud vision api를 라즈베리파이에서 사용하려다 에러가 발생
 
-## google-cloud 다운
-  -pip install google.cloud
-
-pip로 다운을 했지만 라즈베리파이에서 인식을 못했다.
-
 ## 파이썬 버전 확인
   -python --version
   
-python 버전 확인 결과 python 2.7버전을 사용중
+python 버전 확인 결과 python 2.7버전을 사용 중
+확인결과 python 3.x 버전에서 사용 가능
 
 ## 파이썬 버전 변경
   - alias python=python3.7
