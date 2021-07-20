@@ -59,3 +59,38 @@ if __name__ == '__main__':
 ```
 
 ## step3. 추출한 값을 influxdb에 저장한다
+```
+import sys
+import datetime
+import threading
+from influxdb import InfluxDBClient as influxdb
+
+f = open("result.txt", 'r')
+lines = f.readlines()
+for result in lines:
+    result = result.strip()
+f.close()
+
+while True:
+    data = [{
+        'measurement' : 'watermeter',
+        'tags':{
+            'tagID' : 1002,
+        },
+        'fields':{
+            'water' : result,
+        }
+    }]
+    client = None
+    try:
+        client = influxdb('localhost',8086,'root','root','WaterMeter')
+    except Exception as e:
+        print("Exception " + str(e))
+    if client is not None:
+        try:
+            client.write_points(data)
+        except Exception as e:
+            print("Exception write " + str(e))
+        finally:
+            client.close()
+```
