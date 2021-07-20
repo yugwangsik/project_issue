@@ -1,5 +1,3 @@
-google cloud vision api를 라즈베리파이에서 사용하려다 에러가 발생
-
 ## 파이썬 버전 확인
   -python --version
   
