@@ -15,4 +15,4 @@
   - sudo i2cdetect -y 1
 
 ## 라이브러리 설치
-  - sudo pip3 install adafruit-circuitpython-ADXL34x
+  - pip3 install adafruit-circuitpython-ADXL34x
