@@ -94,3 +94,8 @@ while True:
         finally:
             client.close()
 ```
+
+## step4. 실행
+  - python cut_test.py 이미지 폴더명/이미지이름.jpg crop     // 이미지를 자르는 과정
+  - python vision_api.py > result.txt                       // 이미지에서 추출한 값을 result.txt파일로 저장
+  - python influx_water.py                                  // result.txt파일을 열고 한줄을 읽어 온 뒤 '\n'제거 후 influxDB에 값을 
