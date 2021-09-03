@@ -2,7 +2,7 @@
   -python --version
   
 python 버전 확인 결과 python 2.7버전을 사용 중
-확인결과 python 3.x 버전에서 사용 가능
+사용하려면 python 3.x 버전에서 사용 가능
 
 ## 파이썬 버전 변경
   - alias python=python3.7
