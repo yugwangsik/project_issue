@@ -13,4 +13,5 @@ python 버전 확인 결과 python 2.7버전을 사용 중
   - pip3 install google-cloud-vision
 
 ## google cloud vision api key 등록
+  - $ sudo vim .bashrc
   - export GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/credentials-key.json
