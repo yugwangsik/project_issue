@@ -13,4 +13,4 @@
 
 ## 블루투스 패키지 다운
   - sudo apt-get install bluetooth blueman bluez
-  - sudo apt-get install python-bluetooth
+  - sudo apt-get install python-bluetooth  ->  sudo apt-get install python3-bluetooth
